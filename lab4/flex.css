@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Fax';
+    box-sizing: 0;
+
+}
+body{
+    background-image: url(img4/bg.jpg);
+    background-repeat:repeat;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding:2em;
+
+}
+.general-cell{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #fff;
+}
+button{
+    width: 4.5em;
+    background-color: black;
+    color: #fff;
+    }
+
+.head-cell{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 100%;
+    height: 3em;
+    text-align: right
+}
+.wh1{
+    display: flex;
+    text-align: right;
+}
+.al1{
+    display: flex;
+    text-align: left;
+    color: #fff;
+}
+.foot-cell{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 3em;
+    text-align: left;
+}
+.wh2{
+    display: flex;
+    text-align: left;
+}
+.al2{
+    display: flex;
+    height: 3em;
+    text-align: right;
+    color: #fff;
+}
+.data-cell {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align:center;
+    align-items: center;
+    color: #fff;
+    width: 90%;
+    height: 100%;
+    padding:1em;
+}
+.gold-cell {
+    display: flex;
+    background-image: url(img4/gold.jpg );
+    background-repeat:repeat;
+    width:10%;
+}
+
+.menu-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:12%;
+    height: 30em;
+    text-align:left;
+    font-size:24px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    width:12%;
+    height: 80%;
+    text-align:left;
+    font-size:24px;
+    margin-top: 9em;
+    margin-left: 2em;
+}
+.logo-cell {
+    display: flex;
+    margin-top: 6em;
+}
+
+}
+

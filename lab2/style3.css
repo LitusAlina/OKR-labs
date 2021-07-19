@@ -1,0 +1,76 @@
+*{
+ 
+    padding:0;
+    font-family:'Lucida Fax';
+    color: #fff;
+    box-sizing: 0;
+
+}
+body{
+    background-image: url(img2/ФОН.jpg);
+    background-repeat:repeat;
+    width: 100%;
+}
+.general-cell{
+    float: left;
+    width: 70%;
+}
+.head-cell{
+    margin-top: 1em;
+    height: 3em;
+    width: 100%;
+
+}
+.wh1{
+    text-align: right;
+}
+.al1{
+    text-align: left;
+}
+.data-cell {
+    padding:1em;
+    margin-left:1em;
+    text-align:center;
+ 
+}
+.foot-cell{
+    height: 3em;
+    width: 100%;
+}
+.wh2{
+    text-align: left;
+}
+.al2{
+    text-align: right;
+}
+.general2-cell{
+    float: right;
+    width: 25%;
+}
+.menulogo-cell {
+    text-align:center;
+    font-size:24px;
+    float: right;
+    margin-top: 10em;
+    width: 50%;
+    height: 100%;
+ 
+}
+.logo-cell {
+    float: right;
+    margin-top: 10.3em;
+    margin-right: 1.5em;
+}
+
+.gold-cell {
+	background-image: url(img2/gold.jpg );
+    background-repeat:repeat;
+    float: left;
+	width: 40%;
+    height: 48em;
+    text-align: center;
+}
+
+}
+ 
+	
